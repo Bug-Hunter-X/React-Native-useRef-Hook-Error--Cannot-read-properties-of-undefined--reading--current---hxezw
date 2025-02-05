@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Native when using the useRef hook. The error 'Cannot read properties of undefined (reading 'current')' occurs when the component unmounts before the cleanup function in useEffect has a chance to run. The solution shows how to properly implement the useEffect hook's cleanup function to resolve the issue.
